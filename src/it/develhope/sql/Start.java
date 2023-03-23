@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Start {
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) {
 
         try {
             List<Student> italianStudents = new ArrayList<>();
