@@ -7,8 +7,7 @@ import java.util.List;
 public class Start {
     public static void main(String[] args) {
 
-        try {
-            List<Student> italianStudents = new ArrayList<>();
+        try { List<Student> italianStudents = new ArrayList<>();
             List<Student> germanStudents = new ArrayList<>();
 
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/newdb", "developer", "developerpass1");
